@@ -1,0 +1,9 @@
+.navbar {
+  background-color: #333;
+  color: #f4f4f4;
+}
+
+.navbar .logo {
+  display: flex;
+  gap: 2rem;
+}

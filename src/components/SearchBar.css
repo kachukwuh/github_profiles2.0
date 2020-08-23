@@ -1,0 +1,12 @@
+.search-bar form {
+  margin: 1rem 0;
+}
+
+.search-bar label {
+  font-weight: bold;
+  margin: 0;
+}
+
+#clearBtn {
+  display: none;
+}

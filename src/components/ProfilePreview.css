@@ -1,0 +1,14 @@
+.profile-preview {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.profile-preview img {
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  width: 100px;
+}

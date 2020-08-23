@@ -1,0 +1,63 @@
+.profile-page .profile-contents {
+  border: rgba(0, 0, 0, 0.3) 1px solid;
+  border-radius: 5px;
+  display: flex;
+  gap: 2rem;
+  padding: 0.6rem;
+  margin: 1rem 0;
+}
+
+.profile-page .profile-contents p {
+  margin-bottom: 0.4rem;
+}
+
+.profile-page .profile-contents .profile-image {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.profile-page .profile-contents .profile-image img {
+  width: 300px;
+}
+
+.profile-page .profile-contents .profile-details h3 {
+  margin-bottom: 1rem;
+}
+
+.profile-page .profile-contents .profile-details .lead span {
+  font-weight: 500;
+}
+
+.profile-page .profile-contents .profile-details .badges {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.profile-page .profile-contents .profile-details .badges .badge {
+  padding: 0.4rem;
+}
+
+@media (max-width: 500px) {
+  .profile-page .profile-contents {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .profile-page .profile-contents .profile-image img {
+    width: 100%;
+  }
+
+  .profile-page .profile-contents .profile-details .badges {
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 501px) {
+  .profile-page .profile-contents .profile-details .badges {
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+}
