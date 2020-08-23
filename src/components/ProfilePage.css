@@ -42,7 +42,7 @@
 @media (max-width: 500px) {
   .profile-page .profile-contents {
     flex-direction: column;
-    gap: 1rem;
+    gap: 3rem;
   }
 
   .profile-page .profile-contents .profile-image img {
@@ -50,14 +50,14 @@
   }
 
   .profile-page .profile-contents .profile-details .badges {
-    gap: 0.5rem;
+    gap: 1rem;
     flex-wrap: wrap;
   }
 }
 
 @media (max-width: 800px) and (min-width: 501px) {
   .profile-page .profile-contents .profile-details .badges {
-    gap: 0.5rem;
+    gap: 1rem;
     flex-wrap: wrap;
   }
 }
